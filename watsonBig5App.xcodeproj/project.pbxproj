@@ -19,6 +19,7 @@
 		F2F3B6B1259F0A2600CF4280 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */; };
 		F2F3B6B2259F0A2600CF4280 /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */; };
 		F2F3B6B3259F0A2600CF4280 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */; };
+		F2F3B6B7259F143B00CF4280 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3B6B6259F143B00CF4280 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
 		F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarMarkerView.xib; sourceTree = "<group>"; };
 		F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
+		F2F3B6B6259F143B00CF4280 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				F2F3B684259EFA2B00CF4280 /* SceneDelegate.swift */,
 				F2F3B688259EFA2B00CF4280 /* Main.storyboard */,
 				F2F3B686259EFA2B00CF4280 /* ViewController.swift */,
+				F2F3B6B6259F143B00CF4280 /* UIColorExtension.swift */,
 				F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */,
 				F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */,
 				F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */,
@@ -228,6 +231,7 @@
 				F2F3B683259EFA2B00CF4280 /* AppDelegate.swift in Sources */,
 				F2F3B685259EFA2B00CF4280 /* SceneDelegate.swift in Sources */,
 				F2F3B6B1259F0A2600CF4280 /* RadarMarkerView.swift in Sources */,
+				F2F3B6B7259F143B00CF4280 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
