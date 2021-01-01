@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		F2F3B68F259EFA3100CF4280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F3B68D259EFA3100CF4280 /* LaunchScreen.storyboard */; };
 		F2F3B698259EFAEE00CF4280 /* analyze.json in Resources */ = {isa = PBXBuildFile; fileRef = F2F3B697259EFAEE00CF4280 /* analyze.json */; };
 		F2F3B69B259EFAFC00CF4280 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F2F3B69A259EFAFC00CF4280 /* loading.json */; };
+		F2F3B6B1259F0A2600CF4280 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */; };
+		F2F3B6B2259F0A2600CF4280 /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */; };
+		F2F3B6B3259F0A2600CF4280 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		F2F3B690259EFA3100CF4280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2F3B697259EFAEE00CF4280 /* analyze.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = analyze.json; sourceTree = "<group>"; };
 		F2F3B69A259EFAFC00CF4280 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarMarkerView.xib; sourceTree = "<group>"; };
+		F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,6 @@
 				983244C0ED7EC32F705E5B9F /* Pods-watsonBig5App.debug.xcconfig */,
 				D5FBAB739FA031FEC1DC034F /* Pods-watsonBig5App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,10 +92,13 @@
 			children = (
 				F2F3B682259EFA2B00CF4280 /* AppDelegate.swift */,
 				F2F3B684259EFA2B00CF4280 /* SceneDelegate.swift */,
+				F2F3B688259EFA2B00CF4280 /* Main.storyboard */,
 				F2F3B686259EFA2B00CF4280 /* ViewController.swift */,
+				F2F3B6B0259F0A2600CF4280 /* DemoBaseViewController.swift */,
+				F2F3B6AE259F0A2500CF4280 /* RadarMarkerView.swift */,
+				F2F3B6AF259F0A2500CF4280 /* RadarMarkerView.xib */,
 				F2F3B697259EFAEE00CF4280 /* analyze.json */,
 				F2F3B69A259EFAFC00CF4280 /* loading.json */,
-				F2F3B688259EFA2B00CF4280 /* Main.storyboard */,
 				F2F3B68B259EFA3100CF4280 /* Assets.xcassets */,
 				F2F3B68D259EFA3100CF4280 /* LaunchScreen.storyboard */,
 				F2F3B690259EFA3100CF4280 /* Info.plist */,
@@ -162,6 +170,7 @@
 				F2F3B68C259EFA3100CF4280 /* Assets.xcassets in Resources */,
 				F2F3B68A259EFA2B00CF4280 /* Main.storyboard in Resources */,
 				F2F3B69B259EFAFC00CF4280 /* loading.json in Resources */,
+				F2F3B6B2259F0A2600CF4280 /* RadarMarkerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F3B6B3259F0A2600CF4280 /* DemoBaseViewController.swift in Sources */,
 				F2F3B687259EFA2B00CF4280 /* ViewController.swift in Sources */,
 				F2F3B683259EFA2B00CF4280 /* AppDelegate.swift in Sources */,
 				F2F3B685259EFA2B00CF4280 /* SceneDelegate.swift in Sources */,
+				F2F3B6B1259F0A2600CF4280 /* RadarMarkerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
