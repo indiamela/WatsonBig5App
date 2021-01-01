@@ -1,0 +1,44 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CircleMenu (4.1.0)
+  - IBMSwiftSDKCore (1.0.0)
+  - IBMWatsonAssistantV2 (3.2.0):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - IBMWatsonNaturalLanguageUnderstandingV1 (3.6.0):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - IBMWatsonPersonalityInsightsV3 (3.2.0):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - lottie-ios (3.1.9)
+
+DEPENDENCIES:
+  - Charts
+  - CircleMenu
+  - IBMWatsonAssistantV2 (~> 3.2.0)
+  - IBMWatsonNaturalLanguageUnderstandingV1
+  - IBMWatsonPersonalityInsightsV3 (~> 3.2.0)
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - CircleMenu
+    - IBMSwiftSDKCore
+    - IBMWatsonAssistantV2
+    - IBMWatsonNaturalLanguageUnderstandingV1
+    - IBMWatsonPersonalityInsightsV3
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CircleMenu: a66095199a5e26f19acbb212f077010257767fe5
+  IBMSwiftSDKCore: 54ad77b03a4d27b218ba514580197db3b89a96ca
+  IBMWatsonAssistantV2: 506df50d672244fcb9ee9bf04e843cb0e2d62f8f
+  IBMWatsonNaturalLanguageUnderstandingV1: 59d1b94339be5fc8ba81ba0d02cb1b9e61d5b1b2
+  IBMWatsonPersonalityInsightsV3: 4e8f6ffb0a5d5f5e5fef4f11cfe2d4fade9a4324
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+
+PODFILE CHECKSUM: bb460a5c3d36082850eb68b4e23302171dfac222
+
+COCOAPODS: 1.10.0

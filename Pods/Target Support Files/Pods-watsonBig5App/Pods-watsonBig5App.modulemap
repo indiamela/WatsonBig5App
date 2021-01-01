@@ -1,0 +1,6 @@
+framework module Pods_watsonBig5App {
+  umbrella header "Pods-watsonBig5App-umbrella.h"
+
+  export *
+  module * { export * }
+}
